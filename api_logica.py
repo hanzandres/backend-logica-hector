@@ -12,6 +12,7 @@ from collections import deque
 servidor = Flask(__name__)
 CORS(servidor)
 
+#grafo actulizado
 
 grafo_redirecciones = {
     "Enlace_Original": ["Servidor_Proxy", "Redireccion_Oculta"],
